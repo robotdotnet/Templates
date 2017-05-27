@@ -2,9 +2,9 @@ using System;
 using WPILib;
 using WPILib.SmartDashboard;
 
-namespace RobotTemplate
+namespace FRC.RobotTemplate
 {
-    public class RobotTemplate : IterativeRobot
+    public class Robot : IterativeRobot
     {
         const string defaultAuto = "Default";
         const string customAuto = "My Auto";

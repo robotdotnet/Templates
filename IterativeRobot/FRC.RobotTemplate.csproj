@@ -5,8 +5,10 @@
     <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="FRC.WPILib">
-      <Version>2017.0.3</Version>
-    </PackageReference>
+    <PackageReference Include="FRC.WPILib" Version="2017.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="FRC.DotNet.CLI" Version="0.0.1-alpha2" />
   </ItemGroup>
 </Project>

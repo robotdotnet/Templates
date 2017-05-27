@@ -7,12 +7,5 @@
     "tags": {
         "language": "C#"
     },
-    "sourceName": "RobotTemplate",
-    "sources": [
-        {
-            "source": "./",
-            "target": "./",
-            "include": "**.*"
-        }
-    ]
+    "sourceName": "RobotTemplate"
 }
