@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>FRC.WPILib.Sdk</id>
+    <version>2020.1.8</version>
+    <description>FRC WPILib SDK</description>
+    <authors>RobotDotNet</authors>
+    <owners>RobotDotNet</owners>
+    <packageTypes>
+        <packageType name="MSBuildSdk" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="Sdk\**" target="Sdk" />
+  </files>
+</package>
